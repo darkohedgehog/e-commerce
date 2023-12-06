@@ -37,7 +37,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
             <Link href="/">
               <Image src="/logo-white.svg" alt="Logo" width={170} height={50} />
             </Link>
-            <p>{footer.copyright}</p>
+            {footer && <p>{footer.copyright}</p>}
           </div>
         </Gutter>
       </div>
