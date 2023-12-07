@@ -489,6 +489,7 @@ export interface Footer {
   copyright: string;
   navItems?: {
     link: {
+      icon: Media;
       type?: 'reference' | 'custom';
       newTab?: boolean;
       reference: {
